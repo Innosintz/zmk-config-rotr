@@ -4,10 +4,10 @@
 #include <dt-bindings/zmk/bt.h>
 
 &inc_dec_kp {
-	triggers-per-rotation = <12>;
+	triggers-per-rotation = <10>;
 };
 &def_lshft {
-	triggers-per-rotation = <12>;
+	triggers-per-rotation = <10>;
 };
 
 / {
@@ -15,27 +15,27 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			//LCTRL | Lshift | LALT
-			bindings = <&kp LCTRL &lt 4 LSHFT &kp LALT>;
+			//LCTRL | space | LALT   RGB 255 255 255
+			bindings = <&kp LCTRL &lt 4 SPACE &kp LALT>;
 			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
 		};
 		one {
-			//Left | Space | Right
+			//Left | Space | Right   RGB 195 150 195
 			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
 			sensor-bindings = <&inc_dec_kp UP DOWN>;
 		};
 		two {		
-			//Previous Track | Player/pause | Next Track
+			//Previous Track | Player/pause | Next Track  RGB 150 195 195
 			bindings = <&kp C_PREV &lt 4 C_PP &kp C_NEXT>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		three {
-			//Mute | F23 | Stop/Eject
-			bindings = <&kp C_MUTE &lt 4 F23 &kp C_STOP_EJECT>;
+			//BT clear | RGB toggle | Flash   RGB 250 0 0
+			bindings = <&bt BT_CLR &lt 4 rgb_ug RGB_TOGT &bootloader>;
 		};
 		shift {
-			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&bt BT_CLR &trans &rgb_ug RGB_TOG>;
+			//Copy | Trans | Paste
+			bindings = <&C_AC_COPY &trans &C_AC_PASTE>;
 			sensor-bindings = <&def_lshft>;
 		};
 	};
