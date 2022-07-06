@@ -15,8 +15,8 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			//LCTRL | Layer | LALT
-			bindings = <&kp LCTRL &lt 4 F13 &kp LALT>;
+			//LCTRL | Lshift | LALT
+			bindings = <&kp LCTRL &lt 4 LSHFT &kp LALT>;
 			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
 		};
 		one {
