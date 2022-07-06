@@ -35,7 +35,7 @@
 		};
 		shift {
 			//Copy | Trans | Paste
-			bindings = <&C_AC_COPY &trans &C_AC_PASTE>;
+			bindings = <&kp C_AC_COPY &trans &kp C_AC_PASTE>;
 			sensor-bindings = <&def_lshft>;
 		};
 	};
