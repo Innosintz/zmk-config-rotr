@@ -4,10 +4,10 @@
 #include <dt-bindings/zmk/bt.h>
 
 &inc_dec_kp {
-	triggers-per-rotation = <8>;
+	triggers-per-rotation = <10>;
 };
 &def_lshft {
-	triggers-per-rotation = <8>;
+	triggers-per-rotation = <10>;
 };
 
 / {
@@ -35,7 +35,7 @@
 		};
 		shift {
 			//Copy | Trans | Paste
-			bindings = <&kp C_AC_COPY &trans &kp C_AC_PASTE>;
+			bindings = <&kp K_COPY &trans &kp K_PASTE>;
 			sensor-bindings = <&def_lshft>;
 		};
 	};
