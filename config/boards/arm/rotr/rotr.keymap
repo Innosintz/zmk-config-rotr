@@ -31,7 +31,7 @@
 		};
 		three {
 			//BT clear | RGB toggle | Flash   RGB 250 0 0
-			bindings = <&bt BT_CLR &lt 4 rgb_ug_RGB_TOG &Bootloader;
+			bindings = <&bt BT_CLR &lt 4 F13G &Bootloader;
 		};
 		shift {
 			//page up | Trans | page down
