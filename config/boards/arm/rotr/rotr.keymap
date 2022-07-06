@@ -15,9 +15,9 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			//Lctrl | lyaer change | Lalt
+			//PREV | PLAY/PAUSE | NEXT
 			bindings = <&kp LCTRL &lt 4 F13 &kp LALT>;
-			sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+			sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
 		};
 		one {
 			//PREV | PLAY/PAUSE | NEXT
