@@ -36,7 +36,7 @@
 		};
 		shift {
 			//page up | Trans | page down
-			bindings = <&kp PG_UP &trans &kp PG_DN>;
+			bindings = <&rgb_ug RGB_BRI &trans &rgb_ug RGB_BRD>;
 			sensor-bindings = <&def_lshft>;
 		};
 	};
