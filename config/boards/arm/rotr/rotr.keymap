@@ -32,6 +32,7 @@
 		three {
 			//BT clear | RGB toggle | Flash   RGB 250 0 0
 			bindings = <&bt BT_CLR &lt 4 C_STOP_EJECT &bootloader;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		shift {
 			//page up | Trans | page down
