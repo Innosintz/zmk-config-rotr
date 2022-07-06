@@ -31,11 +31,11 @@
 		};
 		three {
 			//BT clear | RGB toggle | Flash   RGB 250 0 0
-			bindings = <&bt BT_CLR &lt 4 rgb_ug RGB_TOG &bootloader>;
+			bindings = <&bt BT_CLR &lt 4 F13 &bt BT_CLR>;
 		};
 		shift {
-			//Copy | Trans | Paste
-			bindings = <&kp HOME &trans &kp END>;
+			//page up | Trans | page down
+			bindings = <&kp PG_UP &trans &kp PG_DN>;
 			sensor-bindings = <&def_lshft>;
 		};
 	};
