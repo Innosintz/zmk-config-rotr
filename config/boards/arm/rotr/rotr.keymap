@@ -31,7 +31,7 @@
 		};
 		three {
 			//BT clear | RGB toggle | Flash   RGB 250 0 0
-			bindings = <&bt BT_CLR &lt 4 rgb_ug RGB_TOG &kp F13;
+			bindings = <&bt BT_CLR &lt 4 SPACE &kp RIGHT;
 		};
 		shift {
 			//page up | Trans | page down
