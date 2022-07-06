@@ -35,7 +35,7 @@
 		};
 		shift {
 			//Copy | Trans | Paste
-			bindings = <&kp K_COPY &trans &kp K_PASTE>;
+			bindings = <&kp HOME &trans &kp END>;
 			sensor-bindings = <&def_lshft>;
 		};
 	};
