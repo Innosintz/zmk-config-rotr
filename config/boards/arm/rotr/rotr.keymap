@@ -63,7 +63,8 @@
            		b = <0>;
 		};
 		shift {
-			//page up | Trans | page down
+			label = "shift";
+			//F14| Trans | page down
 			bindings = <&kp F14 &trans &rgb_ug RGB_TOG>;
 			sensor-bindings = <&def_lshft>;
 		};
