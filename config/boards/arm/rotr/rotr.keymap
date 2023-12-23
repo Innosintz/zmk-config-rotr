@@ -37,7 +37,7 @@
 		};
 		one {
 			//Left | Space | Right   RGB 200 80 200
-			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
+			bindings = <&kp PAGE_UP &lt 4 SPACE &kp PAGE_DOWN>;
 			sensor-bindings = <&inc_dec_kp_2 UP DOWN>;
 			ledoverride;
             		r = <200>;
