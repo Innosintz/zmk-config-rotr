@@ -28,7 +28,7 @@
 
 		default_layer {
 			//LCTRL | space | LALT   RGB 160 160 160 ...
-			bindings = <&kp LCTRL &lt 4 SPACE &kp LALT>;
+			bindings = <&kp UP &lt 4 SPACE &kp DOWN>;
 			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
 			ledoverride;
             		r = <160>;
